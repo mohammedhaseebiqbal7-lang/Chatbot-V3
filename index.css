@@ -1,0 +1,73 @@
+
+/* NESO Branded Stylesheet */
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+    color: #1A1A1A;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #006DAE;
+    color: white;
+    padding: 1em 2em;
+}
+
+header nav a,
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+header nav a:hover,
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 960px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+h1, h2, h3 {
+    color: #006DAE;
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 1.5em;
+}
+
+strong {
+    color: #7A3864;
+}
+
+footer {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1em;
+        margin: 1em;
+    }
+
+    header, footer {
+        padding: 1em;
+    }
+
+    header nav a,
+    footer nav a {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
